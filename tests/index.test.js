@@ -7,6 +7,7 @@ const PARCEL_CACHE_DIR = `.parcel-cache`;
 const fileRegex = `*.ts`;
 
 async function getSourceToOutput(siteRoot) {
+  process.chdir(siteRoot);
   const parcel = new Parcel({
     entries: [`${siteRoot}/**/${fileRegex}`],
     mode: `production`,
@@ -22,7 +23,7 @@ async function getSourceToOutput(siteRoot) {
         distDir: `${siteRoot}/${COMPILED_CACHE_DIR}`,
       },
     },
-    cacheDir: `${siteRoot}/${PARCEL_CACHE_DIR}`,
+    shouldDisableCache: true,
   });
   const distDir = `${siteRoot}/${COMPILED_CACHE_DIR}`;
   await ensureDir(distDir);
