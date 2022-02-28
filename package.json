@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "plugin",
+    "tests/fixtures/*"
+  ],
+  "devDependencies": {
+    "@parcel/core": "^2.3.2",
+    "fs-extra": "^10.0.1",
+    "jest": "^27.5.1"
+  }
+}

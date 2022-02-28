@@ -1,0 +1,10 @@
+{
+  "name": "no-entry-in-root",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@parcel/namer-default": "^2.3.1",
+    "parcel": "^2.3.1",
+    "parcel-namer-relative-to-project-root": "0.0.0-alpha.0"
+  }
+}

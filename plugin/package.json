@@ -1,0 +1,35 @@
+{
+  "name": "parcel-namer-relative-to-project-root",
+  "version": "0.0.0-alpha.0",
+  "homepage": "https://github.com/pieh/parcel-namer-relative-to-project-root/#readme",
+  "description": "Parcel namer that preserve directory structure",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pieh/parcel-namer-relative-to-project-root.git"
+  },
+  "engines": {
+    "node": ">=14.15.0",
+    "parcel": "2.x"
+  },
+  "dependencies": {
+    "@parcel/plugin": "2.3.1",
+    "@babel/runtime": "^7.15.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "babel-preset-gatsby-package": "^2.8.0",
+    "cross-env": "^7.0.3"
+  },
+  "peerDependencies": {
+    "@parcel/namer-default": "^2.3.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\" --extensions \".ts\"",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\" --extensions \".ts\""
+  },
+  "files": [
+    "index.js"
+  ]
+}

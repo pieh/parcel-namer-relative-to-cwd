@@ -1,0 +1,8 @@
+{
+  "name": "baseline",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "parcel": "^2.3.1"
+  }
+}
