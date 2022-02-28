@@ -23,10 +23,10 @@ export default new Namer({
         return null;
       }
 
-      // For now treating projectRoot as root. For current gatsby use case
+      // For now treating CWD as root. For current gatsby use case
       // this is enough, for various other projects it might need to be configurable
       // or just smarter (for example cover common dirs like `src` or `lib` etc)
-      const root = opts.options.projectRoot;
+      const root = process.cwd();
 
       const sourceRelativeToRoot = path.posix.relative(
         root,

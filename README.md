@@ -1,4 +1,4 @@
-# `parcel-namer-relative-to-project-root`
+# `parcel-namer-relative-to-cwd`
 
 Parcel by default is trying to find common/shared directory between entries and output paths are impacted by it. See https://github.com/parcel-bundler/parcel/issues/5476#issuecomment-769058504
 
@@ -17,7 +17,7 @@ Parcel by default is trying to find common/shared directory between entries and 
 
 We can see that `sub/b.html` entry might result in either `dist/b.html` or `dist/sub/b.html` (depending wether `a.html` is entry or not). This makes builds not deterministic, which is very problematic where entries are "optional".
 
-This namer plugin stabilize output, so inside `distDir` hierarchy is the same as entry file in relation to project root:
+This namer plugin stabilize output, so inside `distDir` hierarchy is the same as entry file in relation to current working directory (CWD):
 
 > - `parcel build a.html` -> `dist/a.html`
 > - `parcel build sub/b.html` -> `dist/sub/b.html`

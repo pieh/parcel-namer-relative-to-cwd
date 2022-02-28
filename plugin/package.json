@@ -1,11 +1,11 @@
 {
-  "name": "parcel-namer-relative-to-project-root",
+  "name": "parcel-namer-relative-to-cwd",
   "version": "0.0.0-alpha.0",
-  "homepage": "https://github.com/pieh/parcel-namer-relative-to-project-root/#readme",
+  "homepage": "https://github.com/pieh/parcel-namer-relative-to-cwd/#readme",
   "description": "Parcel namer that preserve directory structure",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pieh/parcel-namer-relative-to-project-root.git"
+    "url": "https://github.com/pieh/parcel-namer-relative-to-cwd.git"
   },
   "engines": {
     "node": ">=14.15.0",
