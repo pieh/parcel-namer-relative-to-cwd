@@ -5,6 +5,9 @@
     "plugin",
     "tests/fixtures/*"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@parcel/core": "^2.3.2",
     "fs-extra": "^10.0.1",
