@@ -32,5 +32,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
