@@ -26,5 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn
-    - run: yarn workspace parcel-namer-relative-to-cwd  prepare
+    - run: yarn build
     - run: yarn test
