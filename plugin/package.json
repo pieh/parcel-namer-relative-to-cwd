@@ -1,6 +1,6 @@
 {
   "name": "@gatsbyjs/parcel-namer-relative-to-cwd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/pieh/parcel-namer-relative-to-cwd/#readme",
   "description": "Parcel namer that preserve directory structure",
   "repository": {
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@parcel/plugin": "2.3.1",
-    "@babel/runtime": "^7.15.4"
+    "@babel/runtime": "^7.15.4",
+    "gatsby-core-utils": "^3.8.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
