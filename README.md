@@ -1,4 +1,4 @@
-# `parcel-namer-relative-to-cwd`
+# `@gatsbyjs/parcel-namer-relative-to-cwd`
 
 Parcel by default is trying to find common/shared directory between entries and output paths are impacted by it. See https://github.com/parcel-bundler/parcel/issues/5476#issuecomment-769058504
 
