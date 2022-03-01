@@ -5,6 +5,6 @@
   "dependencies": {
     "@parcel/namer-default": "^2.3.1",
     "parcel": "^2.3.1",
-    "parcel-namer-relative-to-cwd": "0.0.0-alpha.0"
+    "@gatsbyjs/parcel-namer-relative-to-cwd": "0.0.1"
   }
 }

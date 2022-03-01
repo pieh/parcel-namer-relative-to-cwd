@@ -6,6 +6,8 @@
     "tests/fixtures/*"
   ],
   "scripts": {
+    "build": "yarn workspace @gatsbyjs/parcel-namer-relative-to-cwd prepare",
+    "watch": "yarn workspace @gatsbyjs/parcel-namer-relative-to-cwd watch",
     "test": "jest"
   },
   "devDependencies": {

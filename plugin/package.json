@@ -1,11 +1,12 @@
 {
-  "name": "parcel-namer-relative-to-cwd",
-  "version": "0.0.0-alpha.0",
+  "name": "@gatsbyjs/parcel-namer-relative-to-cwd",
+  "version": "0.0.1",
   "homepage": "https://github.com/pieh/parcel-namer-relative-to-cwd/#readme",
   "description": "Parcel namer that preserve directory structure",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pieh/parcel-namer-relative-to-cwd.git"
+    "url": "https://github.com/pieh/parcel-namer-relative-to-cwd.git",
+    "directory": "plugin"
   },
   "engines": {
     "node": ">=14.15.0",
